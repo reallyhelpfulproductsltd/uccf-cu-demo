@@ -1,0 +1,9 @@
+{
+  "name": "uccf-cu-list",
+  "version": "1.0.0",
+  "description": "Simple script to fetch and display Christian Union data from UCCF public API",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

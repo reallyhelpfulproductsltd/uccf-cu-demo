@@ -6,6 +6,9 @@
 const API_URL = "https://v1.data.uccf.io/api/christian-unions/expand";
 
 async function fetchChristianUnions() {
+  const json = await response.json();
+console.log("API response shape:", Object.keys(json.data));
+
   try {
     const response = await fetch(API_URL);
 
